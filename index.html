@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sections">
+            <div class="input-section">
+                <div class="inputs">
+                    <input type="date" id="input" />
+                    <button onclick="getFestival()">Get Festival</button>
+                </div>
+            </div>
+            <div class="output-section">
+                <h1 id="not">Not Selected Date</h1>
+                <img id="image" src="" />
+                <div class="description">
+                    <h1 id="festival"></h1>
+                    <div class="month-date-day">
+                        <h3 id="day"></h3>
+                        <h3 id="date"></h3>
+                        <h3 id="month"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
