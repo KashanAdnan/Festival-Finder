@@ -62,7 +62,7 @@ function getFestival() {
   // Date Time
   else if (
     todayYear === 2023 &&
-    months[todayMonth] === "Feburary" &&
+    months[todayMonth] === "February" &&
     todayDate === 5 &&
     days[todayDay] === "Sunday"
   ) {
@@ -77,7 +77,7 @@ function getFestival() {
   // Date Time
   else if (
     todayYear === 2023 &&
-    months[todayMonth] === "Feburary" &&
+    months[todayMonth] === "February" &&
     todayDate === 19 &&
     days[todayDay] === "Sunday"
   ) {
